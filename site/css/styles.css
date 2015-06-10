@@ -1,7 +1,15 @@
 body {
 	padding-top: 91px;
 }
-
+.navbar li {
+	
+}
 .navbar-brand {
 	height: 90px;
+}
+
+.navbar-default {
+	background: #ffffff;
+	box-shadow: none;
+	-webkit-box-shadow: none;
 }
