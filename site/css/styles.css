@@ -141,6 +141,18 @@
 		padding-right: 16px;
   		padding-top: 13px;
 	}
+	.mobile-down-link {
+		float: right;
+		width: 50px;
+		height: 40px;
+		cursor: pointer;
+		border-left: 1px solid #ccc;
+	}
+	.mobile-down-link .glyphicon {
+		top: 5px;
+		left: 12px;
+		color: #E60002;
+	}
 	.navbar .container,.navbar {
 		height: 60px;
 	}
@@ -177,6 +189,22 @@
 	}
 	.navbar-toggle:focus {
 		background-color: #8C9A9D !important;	
+	}
+	.submenu-level1 a {
+		float: left !important;
+	}
+	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu {
+		position: fixed;
+		z-index: 1;
+		top: 95px;
+		right: 0px;
+		left: 0px;
+		background: #E60002;
+		color: #ffffff;
+		display: none;
+	}
+	li.submenu-level1:hover>div.submenu {
+		display: block !important;
 	}
 }
 
