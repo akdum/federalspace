@@ -40,6 +40,9 @@
 	.navbar-fixed-top .navbar-collapse li:nth-child(5)>a{
 		padding-top: 10px;
 	}	
+	.navbar-fixed-top .navbar-collapse>ul>li {
+		height: 75px;
+	}
 	.navbar-fixed-top .navbar-collapse>ul>li:hover>a:before{
 		position: absolute;
 		bottom: -25px;
@@ -60,6 +63,10 @@
 		left: 0px;
 		background: #E60002;
 		color: #ffffff;
+		display: none;
+	}
+	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu:hover {
+		display: block;
 	}
 	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu>.container-fluid {
 		height: auto;
@@ -70,6 +77,9 @@
 	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu>.container-fluid a:hover {
 		text-decoration: none;
 		color: black;
+	}
+	li.submenu-level1:hover>div.submenu {
+		display: block !important;
 	}
 	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu>.container-fluid>ul {
 		list-style: none;
