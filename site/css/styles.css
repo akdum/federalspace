@@ -35,8 +35,36 @@ font-family: 'Roboto Condensed', sans-serif;
 		
 	}
 }
+/* tablet */
+@media screen and (max-width: 1024px) {
+	body {
+		padding-top: 60px;
+	}
+	.navbar-brand>img{
+		width: 40px;
+	}
+	.navbar .container,.navbar {
+		height: 80px;
+	}
+	#navbar {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+/* tablet landscape */
+@media screen and (min-width: 601px) and (max-width: 1000px){
+	/*.navbar-collapse.collapse{
+		display: none !important;
+	}
+	.contact-header {
+	  float: right;
+	  font-size: 3rem;
+	  padding-right: 16px;
+	  padding-top: 13px;
+	}*/
+}
 /* mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 	body {
 		padding-top: 60px;
 	}
