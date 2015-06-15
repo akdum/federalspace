@@ -19,20 +19,38 @@ font-family: 'Roboto Condensed', sans-serif;
 /* desktop */
 @media screen and (min-width: 1200px) {	
 	body {
-		padding-top: 105px;
+		padding-top: 95px;
+	}
+	.contact-nav {
+	  top: 3px;
 	}
 	#navbar {
-		padding-top: 25px;
+		padding-top: 20px;
 		padding-bottom: 15px;
 	}
 	.navbar .container,.navbar {
-		height: 105px;
+		height: 95px;
+	}
+	.navbar-brand{
+		padding: 10px;
 	}
 	.navbar-brand>img{
 		width: 60px;
 	}
-	.navbar-fixed-top .navbar-collapse li {
-		
+	.navbar-fixed-top .navbar-collapse li:nth-child(5)>a{
+		padding-top: 10px;
+	}	
+	.navbar-fixed-top .navbar-collapse li:hover>a:before{
+		position: absolute;
+		bottom: -25px;
+		left: 50%;
+		width: 0;
+		height: 0;
+		margin-left: -7px;
+		content: '';
+		border-width: 0px 7px 7px 7px;
+		border-style: solid;
+		border-color: transparent transparent #E60002 transparent;
 	}
 }
 /* tablet */
