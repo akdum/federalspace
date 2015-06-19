@@ -194,17 +194,22 @@
 		float: left !important;
 	}
 	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu {
-		position: fixed;
-		z-index: 1;
-		top: 95px;
-		right: 0px;
-		left: 0px;
-		background: #E60002;
-		color: #ffffff;
-		display: none;
+		/*position: relative;
+		top:40px;*/
+		float: left;
+		width: 100%;
 	}
-	li.submenu-level1:hover>div.submenu {
-		display: block !important;
+	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu a {
+		float: none !important;
+	}
+	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu div ul{
+		padding: 0px;
+		margin: 0px;	
+	}
+	.navbar-fixed-top .navbar-collapse .navbar-nav li .submenu div ul li {
+		list-style: none;
+		text-transform: none;
+		font-size: 2.2rem;
 	}
 }
 
