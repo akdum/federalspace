@@ -35,7 +35,7 @@
 				    		<div class="container-fluid">
 					    		<ul>
 					    			<li><a href="#">Космические исследования</a>					    				
-						    			<div class="submenu-level3 collapse">
+						    			<div class="submenu-level3 hidden-xs">
 						    				<ul>
 						    					<li><a href="#">Краткая история</a></li>
 						    					<li><a href="#">Ученые о фундаментальных космических исследованиях</a></li>
@@ -45,7 +45,7 @@
 						    			</div>
 					    			</li>
 					    			<li><a href="#">Космические программы</a>
-						    			<div class="submenu-level3 collapse">
+						    			<div class="submenu-level3 hidden-xs">
 						    				<ul>
 						    					<li><a href="#">Запуски</a></li>
 						    					<li><a href="#">Разгонные блоки</a></li>
@@ -77,9 +77,41 @@
 							</div>
 						</div>
 			    	</li>
-			    	<li><a href="#">Ресурсы</a></li>
-			    	<li><a href="#">Об агентстве</a></li>
-			        <li class="hidden-xs"><a href="#"><span class="glyphicon glyphicon-envelope contact-nav" aria-hidden="true"></span></a></li>
+			    	<li class="submenu-level1 clearfix"><a href="#">Ресурсы</a>
+			    		<span class="mobile-down-link visible-xs-inline">
+			    			<span class="glyphicon glyphicon-chevron-right" data-toggle="collapse" href="#resources-submenu" aria-expanded="false" aria-controls="resources-submenu"></span>
+			    		</span>
+						<div id="resources-submenu" class="submenu collapse submenu-level2">
+							<div class="container-fluid">
+								<ul>
+									<li><a href="#">Телестудия Роскосмоса</a></li>
+									<li><a href="#">Лицензирование</a></li>
+									<li><a href="#">Руководители государства о космической деятельности</a></li>
+									<li><a href="#">Конкурсы</a></li>
+									<li><a href="#">План-график размещения заказов</a></li>
+									<li><a href="#">Крупные закупки</a></li>
+									<li><a href="#">Журнал "Российский космос"</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+			    	<li class="submenu-level1 clearfix"><a href="#">Об агентстве</a>
+			    		<span class="mobile-down-link visible-xs-inline">
+			    			<span class="glyphicon glyphicon-chevron-right" data-toggle="collapse" href="#about-submenu" aria-expanded="false" aria-controls="about-submenu"></span>
+			    		</span>
+						<div id="about-submenu" class="submenu collapse submenu-level2">
+							<div class="container-fluid">
+								<ul>
+									<li><a href="#">Официальная информация</a></li>
+									<li><a href="#">Нормативные документы</a></li>
+									<li><a href="#">Международное сотрудничество</a></li>
+									<li><a href="#">Космическая промышленность</a></li>
+								</ul>
+							</div>
+						</div>
+			    	</li>
+			        <li class="hidden-xs"><a href="#"><span class="glyphicon glyphicon-envelope contact-nav" aria-hidden="true"></span></a>
+			        </li>
 		      	</ul>
 	        </div>
     	</div>

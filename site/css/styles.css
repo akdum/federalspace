@@ -131,7 +131,7 @@
 	}
 }
 /* mobile */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
 	body {
 		padding-top: 60px;
 	}
@@ -146,7 +146,6 @@
 		width: 50px;
 		height: 40px;
 		cursor: pointer;
-		border-left: 1px solid #ccc;
 	}
 	.mobile-down-link .glyphicon {
 		top: 5px;
@@ -180,9 +179,6 @@
 	}
 	.navbar-fixed-top .navbar-collapse ul {
 		margin: 0px;
-	}
-	.navbar-fixed-top .navbar-collapse li {
-		border-bottom: 1px #ccc solid;
 	}
 	.navbar-toggle span.icon-bar {
 		background-color: #ffffff !important;
